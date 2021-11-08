@@ -42,7 +42,7 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
-  - logo: {fileID: 21300000, guid: 4850df3c2949c794a8e1dd00ead96aaf, type: 3}
+  - logo: {fileID: 21300000, guid: 2c49c417d9b7f9846b45974e5a50b9cb, type: 3}
     duration: 4
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -156,7 +156,9 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Android: com.DefaultCompany.Superanglenasu
+    Standalone: com.DefaultCompany.Superanglenasu
   buildNumber:
     Standalone: 0
     iPhone: 0
