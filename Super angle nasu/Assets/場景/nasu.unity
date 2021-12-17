@@ -313,6 +313,8 @@ MonoBehaviour:
   interval: 0.1
   goDialogue: {fileID: 58683}
   textContent: {fileID: 809631554}
+  goTip: {fileID: 1117354678}
+  keyDialogue: 323
 --- !u!1 &163208742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,6 +1188,8 @@ GameObject:
   m_Component:
   - component: {fileID: 392431579}
   - component: {fileID: 392431578}
+  - component: {fileID: 392431580}
+  - component: {fileID: 392431581}
   m_Layer: 0
   m_Name: god bear 01_1
   m_TagString: Untagged
@@ -1232,7 +1236,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 5428194456093252682, guid: a3f2b4bb8b0369a49bd050a8c6fc9287, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1258,6 +1262,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &392431580
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392431577}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.05240643, y: 0.786942}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.09, y: 5.55}
+    newSize: {x: 4.09, y: 5.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.011572, y: 7.123884}
+  m_EdgeRadius: 0
+--- !u!114 &392431581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392431577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43141ba3577f06c4d8f53a38f3793b69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dateDialogue: {fileID: 11400000, guid: 1bc81502c36ac994ab9c627c6f339dea, type: 2}
+  dialogueSystem: {fileID: 90977356}
+  target: "\u8304\u8304"
 --- !u!1 &392537075
 GameObject:
   m_ObjectHideFlags: 0

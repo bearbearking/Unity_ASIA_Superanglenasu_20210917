@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//NPC要對玩家說的對話內容
+/// <summary>
+/// NPC要對玩家說的對話內容
+/// </summary>
 [CreateAssetMenu(menuName = "God/對話資料")]
 public class DateDialogue : ScriptableObject
 {
