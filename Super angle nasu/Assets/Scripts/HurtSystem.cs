@@ -19,6 +19,8 @@ public class HurtSystem : MonoBehaviour
     private float hpMax;
     private Animator ani;
 
+
+
     //喚醒事件:在 Start 前執行一次
     private void Awake()
     {
@@ -36,7 +38,6 @@ public class HurtSystem : MonoBehaviour
         imgHpBar.fillAmount = hp / hpMax;
         if (hp <= 0) Dead();
         ani.SetTrigger("觸發死亡");
-        
     }
 
     private void Dead()
@@ -44,6 +45,8 @@ public class HurtSystem : MonoBehaviour
         ani.SetTrigger(paremeterDead);
         onDead.Invoke();
     }
+
+
     // Start is called before the first frame update
     void Start()
     {
