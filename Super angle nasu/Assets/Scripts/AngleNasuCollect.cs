@@ -10,7 +10,7 @@ public class AngleNasuCollect : MonoBehaviour
     {
         Nasu nasu = collision.GetComponent<Nasu>();
 
-        print("碰撞到的東西是:" + nasu);
+        //print("碰撞到的東西是:" + nasu);
 
         //nasu.ChangeHpBar(1);
         Destroy(gameObject);

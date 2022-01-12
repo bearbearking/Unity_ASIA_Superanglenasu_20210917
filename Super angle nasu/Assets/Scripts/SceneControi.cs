@@ -13,15 +13,4 @@ public class SceneControi : MonoBehaviour
         Application.Quit();
         print("Ãö³¬¹CÀ¸");
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
