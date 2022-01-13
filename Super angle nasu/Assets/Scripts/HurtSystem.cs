@@ -15,8 +15,11 @@ public class HurtSystem : MonoBehaviour
     public string paremeterDead = "觸發死亡";
     [Header("死亡事件")]
     public UnityEvent onDead;
+    [Header("吃寶物回血"), Range(0, 20)]
+    public int currenthp;
 
-    private float hpMax;
+
+private float hpMax;
     private Animator ani;
 
 
@@ -46,7 +49,10 @@ public class HurtSystem : MonoBehaviour
         onDead.Invoke();
     }
 
-
+    public void GoodAngle(int amout)
+    {
+        currenthp = currenthp + 20;
+    }
     // Start is called before the first frame update
     void Start()
     {
