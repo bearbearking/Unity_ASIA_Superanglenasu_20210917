@@ -19,7 +19,7 @@ public class HurtSystem : MonoBehaviour
     public int currenthp;
 
 
-private float hpMax;
+    private float hpMax;
     private Animator ani;
 
 

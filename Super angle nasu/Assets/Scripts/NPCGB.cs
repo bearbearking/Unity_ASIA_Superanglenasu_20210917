@@ -23,7 +23,7 @@ public class NPCGB : MonoBehaviour
     {
         if (collision.name == target)
         {
-            dialogueSystem.StartDialogue(dateDialogue.dialogues);
+            dialogueSystem.StartDialogue(dateDialogue.dialogues, dateDialogue.talker );
         }
 
     }

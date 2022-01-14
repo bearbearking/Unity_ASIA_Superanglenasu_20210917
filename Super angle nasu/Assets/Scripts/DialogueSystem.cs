@@ -18,6 +18,8 @@ public class DialogueSystem : MonoBehaviour
     public GameObject goTip;
     [Header("對話按鍵")]
     public KeyCode keyDialogue = KeyCode.Mouse0;
+    [Header("對話名稱")]
+    public Text testTalker;
 
     private void Start()
     {
@@ -61,8 +63,10 @@ public class DialogueSystem : MonoBehaviour
     ///<summary>
     ///開始對話
     ///</summary>
-    public void StartDialogue(string[] contents)
+    public void StartDialogue(string[] contents, string talker)
     {
+        testTalker.text = talker;
+
         StartCoroutine(TypeEffect(contents));
     }
 

@@ -7,6 +7,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "God/癸杠戈")]
 public class DateDialogue : ScriptableObject
 {
+    public string talker;
     // Text Area (程︽计, 程︽计) - 度string
     [Header("癸杠ず甧"), TextArea(3, 5)]
     public string[] dialogues;

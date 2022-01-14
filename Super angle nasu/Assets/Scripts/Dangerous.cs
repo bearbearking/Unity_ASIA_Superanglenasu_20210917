@@ -1,6 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;     //¤Þ¥Î¤¶­±API
+using UnityEngine.Events;
 
 public class Dangerous : MonoBehaviour
 {
@@ -9,6 +9,7 @@ public class Dangerous : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         HurtSystem angleEat = collision.GetComponent<HurtSystem>();
-        angleEat.GoodAngle(-100);
+        angleEat.Hurt(100);
     }
+
 }

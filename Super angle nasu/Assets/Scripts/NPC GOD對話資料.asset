@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a9b93988875d194c8cee28301227af3, type: 3}
   m_Name: "NPC GOD\u5C0D\u8A71\u8CC7\u6599"
   m_EditorClassIdentifier: 
+  talker: "GOD\u718A"
   dialogues:
   - Hi, Nasu~~!
   - GO DIE !
